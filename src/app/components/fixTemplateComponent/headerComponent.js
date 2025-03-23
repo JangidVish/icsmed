@@ -6,7 +6,7 @@ const HeaderComponent = () => {
       className="container-fluid bg-[#0284A8] text-white flex justify-around items-center pb-2"
       id="hb1"
     >
-      <div className="row mt-6 flex flex-row">
+      <div className="row mt-6 flex md:flex-row flex-col">
         {/* Left Logo */}
         <div className="col-12 col-sm-6 col-md-3 m-auto order-1 order-sm-1">
           <div className="text-center p-2">
