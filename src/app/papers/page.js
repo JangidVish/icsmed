@@ -5,7 +5,7 @@ const CallForPapers = () => {
     <>
       <div className="flex flex-col gap-2" id="#papers ">
         <h1 className="text-2xl font-semibold">Call For Papers</h1>
-        <h3 className="text-lg">
+        <h3 className="text-base">
           Authors are encouraged to submit high-quality research papers for the
           Conference:
         </h3>

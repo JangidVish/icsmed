@@ -3,9 +3,11 @@ import React from "react";
 const LeftColumn = () => {
   return (
     <div className="  p-4  mx-auto">
-      <button className="bg-blue-500  py-2 px-4 w-full rounded hover:bg-blue-600 font-semibold cursor-pointer">
-        Register Now
-      </button>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqjEa5wRic4sDCP1Zu2IJAGjlNDv5r_CkjjHxI57COhhG6-A/viewform">
+        <button className="bg-blue-500  py-2 px-4 w-full rounded hover:bg-blue-600 font-semibold cursor-pointer">
+          Register Now
+        </button>
+      </a>
 
       {/* Conference Tracks */}
       <div className="mt-4 p-2 rounded">

@@ -1,12 +1,7 @@
 import React from "react";
-import CallForPapers from "./components/pages/CallForPapers";
 
 const page = () => {
-  return (
-    <div className=" text-black">
-      <CallForPapers />
-    </div>
-  );
+  return <div className=" text-black">{/* <ContactUs /> */}</div>;
 };
 
 export default page;
