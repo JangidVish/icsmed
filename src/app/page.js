@@ -1,9 +1,10 @@
 import React from "react";
+import CallForPapers from "./components/pages/CallForPapers";
 
 const page = () => {
   return (
-    <div className=" text-white flex justify-center items-center">
-      This is home page
+    <div className=" text-black">
+      <CallForPapers />
     </div>
   );
 };

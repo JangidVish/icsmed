@@ -1,8 +1,8 @@
-import Footer from "./components/footer";
-import HeaderComponent from "./components/headerComponent";
-import LeftColumn from "./components/leftComponent";
-import Navbar from "./components/navbar";
-import RightConf from "./components/rightConferenceDate";
+import Footer from "./components/fixTemplateComponent/footer";
+import HeaderComponent from "./components/fixTemplateComponent/headerComponent";
+import LeftColumn from "./components/fixTemplateComponent/leftComponent";
+import Navbar from "./components/fixTemplateComponent/navbar";
+import RightConf from "./components/fixTemplateComponent/rightConferenceDate";
 import "./globals.css";
 
 export const metadata = {
@@ -28,9 +28,7 @@ export default function RootLayout({ children }) {
           </aside>
 
           {/* Middle Content */}
-          <section className="flex-grow flex items-center justify-center p-6">
-            {children}
-          </section>
+          <section className="flex-grow flex p-6">{children}</section>
 
           {/* Right Menu */}
           <aside className="w-1/4  flex flex-col  p-4 shadow-lg">
