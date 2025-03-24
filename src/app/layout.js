@@ -19,15 +19,15 @@ export default function RootLayout({ children }) {
           <Navbar />
         </header>
 
-        <main className="flex flex-row w-full flex-grow">
-          <aside className="w-1/4 flex flex-col items-center justify-center shadow-lg">
+        <main className="flex md:flex-row flex-col w-full flex-grow">
+          <aside className="md:w-1/4 w-full flex flex-col items-center justify-center shadow-lg">
             <LeftColumn />
           </aside>
 
           {/* Dynamic Content */}
           <section className="flex-grow flex p-6">{children}</section>
 
-          <aside className="w-1/4 flex flex-col p-4 shadow-lg">
+          <aside className="md:w-1/4 w-full flex flex-col p-4 shadow-lg">
             <RightConf />
           </aside>
         </main>

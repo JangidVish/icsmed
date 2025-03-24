@@ -2,7 +2,7 @@ import React from "react";
 
 const SubmissionGuidelines = () => {
   return (
-    <div className="w-3/4 flex align-middle flex-col items-center">
+    <div className="md:w-3/4 w-full flex align-middle flex-col items-center">
       <div className="guidline_container">
         <h1 className="text-2xl font-bold text-gray-900 mb-2">
           Submission Guidelines

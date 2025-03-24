@@ -8,8 +8,8 @@ export default function Navbar() {
   const router = useRouter(); // Use router for navigation
 
   return (
-    <nav className="bg-gray-100 shadow-md text-base w-full flex flex-row items-center justify-center">
-      <div className="container mx-auto px-4 py-3 flex items-center justify-center w-full">
+    <nav className="bg-gray-100 shadow-md text-base w-full flex md:flex-row flex-col items-center justify-center">
+      <div className="container mx-auto px-4 py-3 flex md:flex-row flex-col items-center justify-center w-full ">
         {/* Mobile Menu Button */}
         <button
           className="block lg:hidden text-gray-700 focus:outline-none"
@@ -65,7 +65,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden px-4 py-3 space-y-2 bg-gray-100">
+        <div className="lg:hidden px-4 py-3 space-y-2 bg-gray-100 flex flex-col w-full gap-5">
           <NavItem href="/" label="Home" />
           <NavItem href="/about" label="About Conference" />
           <NavItem href="/schedule" label="Program Schedule" />
