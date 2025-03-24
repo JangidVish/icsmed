@@ -24,11 +24,11 @@ export default function Navbar() {
           <Dropdown
             label="About Conference"
             items={[
-              { href: "/about", label: "About Conference" },
-              { href: "/schedule", label: "Program Schedule" },
-              { href: "/tracks", label: "Conference Tracks" },
+              { href: "/Confrence/About", label: "About Conference" },
+              { href: "/Confrence/Schedule", label: "Program Schedule" },
+              { href: "/Confrence/Tracks", label: "Conference Tracks" },
               { href: "/keynote", label: "Keynote Speaker" },
-              { href: "/venue", label: "Venue" },
+              { href: "/Confrence/Venue", label: "Venue" },
             ]}
           />
           <Dropdown
