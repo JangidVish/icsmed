@@ -4,6 +4,7 @@ import LeftColumn from "./components/leftComponent";
 import Navbar from "./components/navbar";
 import RightConf from "./components/rightConferenceDate";
 import "./globals.css";
+import Home from "./page"
 
 export const metadata = {
   title: "Create Next App",
@@ -23,14 +24,16 @@ export default function RootLayout({ children }) {
         {/* Main Content */}
         <main className="flex flex-row w-full flex-grow">
           {/* Left Menu */}
-          <aside className="w-1/4  flex flex-col items-center justify-center shadow-lg">
+          <aside className="w-1/4  flex flex-col items-center shadow-lg">
             <LeftColumn />
           </aside>
 
           {/* Middle Content */}
-          <section className="flex-grow flex items-center justify-center p-6">
-            {children}
+          <section className="w-1/2 flex-grow flex items-center justify-center p-6">
+           <Home/>
           </section>
+          
+          
 
           {/* Right Menu */}
           <aside className="w-1/4  flex flex-col  p-4 shadow-lg">
