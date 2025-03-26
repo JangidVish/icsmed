@@ -14,13 +14,19 @@ export default function ConferenceDates() {
             <tr className="border-b">
               <td className="">Start Date</td>
               <td className="">
-                15<sup>th</sup> Nov 2024
+                3<sup>rd</sup> Mar 2025
               </td>
             </tr>
             <tr className="border-b">
               <td className="">Last Date</td>
               <td className="">
-                30<sup>th</sup> Dec 2024
+                3<sup>rd</sup> April 2025
+              </td>
+            </tr>
+            <tr className="border-b">
+              <td className="">Notification of Acceptance</td>
+              <td className="">
+                17<sup>th</sup> April 2025
               </td>
             </tr>
             <tr className="bg-[#006699]  text-white font-bold">
@@ -29,10 +35,17 @@ export default function ConferenceDates() {
             <tr className="border-b">
               <td className="">Start Date</td>
               <td className="">
-                15<sup>th</sup> Nov 2024
+                17<sup>th</sup> - 30<sup>th</sup> April 2024
               </td>
             </tr>
+
             <tr className="border-b">
+              <td className="">Submission of Camera Ready Manuscript:</td>
+              <td className="">
+                17<sup>th</sup> - 30<sup>th</sup> April 2024
+              </td>
+            </tr>
+            {/* <tr className="border-b">
               <td className="">Early Bird</td>
               <td className="">
                 15<sup>th</sup> - 30<sup>th</sup> Nov 2024
@@ -49,11 +62,11 @@ export default function ConferenceDates() {
               <td className="">
                 05<sup>th</sup> Jan 2025
               </td>
-            </tr>
+            </tr> */}
             <tr className="bg-blue-800 text-white font-bold">
               <td className="mt-4">Conference Dates</td>
               <td>
-                06<sup>th</sup> & 07<sup>th</sup> Feb 2025
+                08<sup>th</sup> - 09<sup>th</sup> May 2025
               </td>
             </tr>
           </tbody>

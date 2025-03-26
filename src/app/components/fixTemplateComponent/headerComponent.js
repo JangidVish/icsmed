@@ -6,7 +6,7 @@ const HeaderComponent = () => {
       className="container-fluid bg-[#0284A8] text-white flex justify-around items-center pb-2"
       id="hb1"
     >
-      <div className="row mt-6 flex flex-row">
+      <div className="row mt-6 flex md:flex-row flex-col">
         {/* Left Logo */}
         <div className="col-12 col-sm-6 col-md-3 m-auto order-1 order-sm-1">
           <div className="text-center p-2">
@@ -30,11 +30,11 @@ const HeaderComponent = () => {
               Organizing International Conference on
             </p>
             <p className="text-yellow-400 text-xl font-bold italic">
-              Emerging Technologies and Computing (ICETC - 2025)
+              Sustainable Mechanical Engineering and Design (ICSMED - 2025)
             </p>
             <p className="text-blue-200 text-sm">
-              <span className="font-semibold">Hybrid Mode</span> (Online +
-              Offline); 06th & 07th February 2025
+              <span className="font-semibold">Organized By:</span> Department of
+              Mechanical Engineering
             </p>
 
             <p className="text-blue-200 text-sm">

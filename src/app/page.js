@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Page = () => {
   return (
     <div className="text-black flex flex-col justify-center items-center">
@@ -61,6 +62,7 @@ const Page = () => {
       </div>
     </div>
   );
-};
+
+}
 
 export default Page;
