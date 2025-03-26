@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
           </aside>
 
           {/* Dynamic Content */}
-          <section className="flex-grow flex p-6">
+          <section className="flex-grow flex p-6 w-1/2">
             <Home/>
           </section>
 
