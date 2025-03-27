@@ -1,10 +1,13 @@
 import React from "react";
 
+
+import logo from "./../Assets/rup1.png"
 const Page = () => {
   return (
-    <div className="text-black flex flex-col justify-center items-center max-w-3xl">
-      <div className="">
-        <img src="/Images/flier.jpg" alt="" srcset="" />
+    <div className="text-black flex flex-col justify-center items-center">
+      <div className="h-50">
+        <img src= {logo} alt="img"/>
+
       </div>
       <div>
         <h1 className="font-bold text-md pt-3">About the Conference</h1>
