@@ -3,7 +3,7 @@ import React from "react";
 const CallForPapers = () => {
   return (
     <>
-      <div className="flex flex-col gap-2" id="#papers ">
+      <div className="flex flex-col gap-2 max-w-3xl" id="#papers ">
         <h1 className="text-2xl font-semibold">Call For Papers</h1>
         <h3 className="text-base">
           Authors are encouraged to submit high-quality research papers for the

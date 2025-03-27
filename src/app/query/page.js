@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
+    <div className="max-w-4xl">
       <h1 className="text-xl font-bold">Post Your Query</h1>
       <h3 className="mt-2 px-4">
         Email:{" "}

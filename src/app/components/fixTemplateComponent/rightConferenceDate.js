@@ -14,35 +14,35 @@ export default function ConferenceDates() {
             <tr className="border-b">
               <td className="">Start Date</td>
               <td className="">
-                3<sup>rd</sup> Mar 2025
+                27<sup>th</sup> Mar 2025
               </td>
             </tr>
             <tr className="border-b">
               <td className="">Last Date</td>
               <td className="">
-                3<sup>rd</sup> April 2025
+                25<sup>th</sup> April 2025
               </td>
             </tr>
             <tr className="border-b">
               <td className="">Notification of Acceptance</td>
               <td className="">
-                17<sup>th</sup> April 2025
+                10<sup>th</sup> May 2025
               </td>
             </tr>
             <tr className="bg-[#006699]  text-white font-bold">
               <td colSpan="2">Registration</td>
             </tr>
             <tr className="border-b">
-              <td className="">Start Date</td>
+              <td className="">Date</td>
               <td className="">
-                17<sup>th</sup> - 30<sup>th</sup> April 2024
+                10<sup>th</sup> - 20<sup>th</sup> May 2025
               </td>
             </tr>
 
             <tr className="border-b">
               <td className="">Submission of Camera Ready Manuscript:</td>
               <td className="">
-                17<sup>th</sup> - 30<sup>th</sup> April 2024
+                10<sup>th</sup> - 20<sup>th</sup> May 2024
               </td>
             </tr>
             {/* <tr className="border-b">
@@ -66,12 +66,21 @@ export default function ConferenceDates() {
             <tr className="bg-blue-800 text-white font-bold">
               <td className="mt-4">Conference Dates</td>
               <td>
-                08<sup>th</sup> - 09<sup>th</sup> May 2025
+                30<sup>th</sup> - 31<sup>st</sup> May 2025
               </td>
             </tr>
           </tbody>
         </table>
       </div>
+
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfqjEa5wRic4sDCP1Zu2IJAGjlNDv5r_CkjjHxI57COhhG6-A/viewform"
+        className="mt-4"
+      >
+        <button className="bg-blue-500  py-2 px-4 w-full rounded hover:bg-blue-600 font-semibold cursor-pointer">
+          Register Now
+        </button>
+      </a>
     </div>
   );
 }

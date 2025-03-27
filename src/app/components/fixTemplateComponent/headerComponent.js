@@ -9,10 +9,10 @@ const HeaderComponent = () => {
       <div className="row mt-6 flex md:flex-row flex-col">
         {/* Left Logo */}
         <div className="col-12 col-sm-6 col-md-3 m-auto order-1 order-sm-1">
-          <div className="text-center p-2">
-            <a href="https://www.journalpressindia.com/">
+          <div className="text-center p-2 w-32">
+            <a href="/">
               <img
-                src="https://www.journalpressindia.com/website/img/logo1.png"
+                src="/Images/icsmed_logo.png"
                 alt="Journal Press India Logo"
                 className="img-fluid"
               />
@@ -46,9 +46,9 @@ const HeaderComponent = () => {
 
         {/* Right Logo */}
         <div className="col-12 col-sm-6 col-md-3 m-auto order-3 order-sm-3">
-          <div className="text-center p-2">
+          <div className="text-center p-2 w-32">
             <img
-              src="https://www.journalpressindia.com/siteadmin/upload/1730523025_conference%20logo.jpeg"
+              src="/Images/pccoer_logo.webp"
               alt="Conference Logo"
               className="img-fluid w-32"
             />

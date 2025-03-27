@@ -8,8 +8,8 @@ export default function Navbar() {
   const router = useRouter(); // Use router for navigation
 
   return (
-    <nav className="bg-gray-100 shadow-md text-base w-full flex md:flex-row flex-col items-center justify-center">
-      <div className="container mx-auto px-4 py-3 flex md:flex-row flex-col items-center justify-center w-full ">
+    <nav className="bg-gray-100 shadow-md text-base w-full flex flex-row items-center justify-center">
+      <div className="container mx-auto px-4 py-3 flex items-center justify-center w-full">
         {/* Mobile Menu Button */}
         <button
           className="block lg:hidden text-gray-700 focus:outline-none"
@@ -27,7 +27,7 @@ export default function Navbar() {
               { href: "/Confrence/About", label: "About Conference" },
               { href: "/Confrence/Schedule", label: "Program Schedule" },
               { href: "/Confrence/Tracks", label: "Conference Tracks" },
-              { href: "/keynote", label: "Keynote Speaker" },
+              // { href: "", label: "Keynote Speaker" },
               { href: "/Confrence/Venue", label: "Venue" },
             ]}
           />
@@ -65,13 +65,13 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden px-4 py-3 space-y-2 bg-gray-100 flex flex-col w-full gap-5">
+        <div className="lg:hidden px-4 py-3 space-y-2 bg-gray-100">
           <NavItem href="/" label="Home" />
-          <NavItem href="/about" label="About Conference" />
-          <NavItem href="/schedule" label="Program Schedule" />
-          <NavItem href="/tracks" label="Conference Tracks" />
-          <NavItem href="/keynote" label="Keynote Speaker" />
-          <NavItem href="/venue" label="Venue" />
+          <NavItem href="/Confrence/About" label="About Conference" />
+          <NavItem href="/Confrence/Schedule" label="Program Schedule" />
+          <NavItem href="/Confrence/Tracks" label="Conference Tracks" />
+          {/* <NavItem href="" label="Keynote Speaker" /> */}
+          <NavItem href="/Confrence/Venue" label="Venue" />
           <NavItem href="/organisers" label="About the Organiser" />
           <NavItem href="/committee" label="Steering Committee" />
           <NavItem href="/partners" label="Partner" />
@@ -119,10 +119,9 @@ function Dropdown({ label, items }) {
       <button className="text-gray-800 hover:text-blue-600">{label} ▼</button>
       <div className="absolute left-0 hidden bg-white shadow-md rounded-md group-hover:block w-50 gap-4">
         {items.map((item, index) => (
-          <>
+          <div className="">
             <NavItem key={index} href={item.href} label={item.label} />
-            <br />
-          </>
+          </div>
         ))}
       </div>
     </div>

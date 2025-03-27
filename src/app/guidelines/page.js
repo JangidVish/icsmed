@@ -2,7 +2,7 @@ import React from "react";
 
 const SubmissionGuidelines = () => {
   return (
-    <div className="md:w-3/4 w-full flex align-middle flex-col items-center">
+    <div className="md:w-3/4 w-full flex align-middle flex-col items-center max-w-3xl">
       <div className="guidline_container">
         <h1 className="text-2xl font-bold text-gray-900 mb-2">
           Submission Guidelines
@@ -17,7 +17,7 @@ const SubmissionGuidelines = () => {
             <li>Written in English using third-person (passive voice).</li>
             <li>
               SI units should be used; other units may appear in parentheses
-              after SI units.
+              after SI units.~
             </li>
             <li>
               Mathematical symbols must be clear, with proper differentiation

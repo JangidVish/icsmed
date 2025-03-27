@@ -2,15 +2,9 @@ import React from "react";
 
 const LeftColumn = () => {
   return (
-    <div className="  p-4  mx-auto">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqjEa5wRic4sDCP1Zu2IJAGjlNDv5r_CkjjHxI57COhhG6-A/viewform">
-        <button className="bg-blue-500  py-2 px-4 w-full rounded hover:bg-blue-600 font-semibold cursor-pointer">
-          Register Now
-        </button>
-      </a>
-
+    <div className="p-4 w-fit">
       {/* Conference Tracks */}
-      <div className="mt-4 p-2 rounded">
+      <div className="">
         <h3 className=" font-bold">Conference Topics</h3>
         <ul className="list-disc list-inside text-sm">
           <li> Heat and Mass Transfer</li>
@@ -24,10 +18,13 @@ const LeftColumn = () => {
           <li>Micro- and nano electromechanical systems Electric Vehicle</li>
           <li>Biomechanical engineering</li>
           <li> Automobile Engineering</li>
-          <li>Embedded Systems and IoT</li>
           <li>Robotics and Drone Technologies</li>
-          <li>Multidisciplinary</li>
         </ul>
+        <a href="/Confrence/Tracks">
+          <p className="text-center mt-2 cursor-pointer bg-blue-500 font-semibold text-black py-2 rounded-lg">
+            View all Tracks
+          </p>
+        </a>
       </div>
 
       {/* Conference Highlights */}
