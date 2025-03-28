@@ -3,48 +3,33 @@ import React from "react";
 function AboutOrganizer() {
   return (
     <>
-      <div className=" max-w-3xl ">
-        <h2 className="text-xl mb-2 font-bold">About the Organiser</h2>
-        {/* <img
-        src="/path-to-your-image.png"
-        alt="Institute"
-        className="w-full rounded-lg mb-4"
-      /> */}
+     <div className=" max-w-3xl ">
+        <h2 className="text-xl mb-2 font-bold">About Institute</h2>
+       
         <p className="text-justify mb-4">
-          Pimpri Chinchwad College of Engineering & Research (PCCOE&R) was
-          established in 2014 under the aegis of Pimpri Chinchwad Education
-          Trust (PCET). Presently the Institute offers NBA accredited UG
-          Programmes in four disciplines viz. Civil Engineering, Computer
-          Engineering, E&TC Engineering, Mechanical Engineering and also offers
-          Information Technology. PCCOE&R is affiliated to Savitribai Phule Pune
-          University (SPPU), Pune and is approved by A.I.C.T.E., New Delhi,
-          Govt. of Maharashtra, D.T.E., Mumbai. Recently the Institute has been
-          accredited with A++ grade by NAAC in the very first cycle of
-          accreditation.
-          <br></br>
-          Right from its inception, PCCOER has adopted Outcome Based Education
-          (OBE) and Student-centric approach. We work on a Four-Pillar
-          Philosophy, the four pillars of our Institute being;
+        Pimpri Chinchwad College of Engineering & Research (PCCOE&R) was
+established in 2014 under the aegis of Pimpri Chinchwad Education Trust
+(PCET). Presently the Institute offers NBA accredited UG Programmes in four
+disciplines viz. Civil Engineering, Computer Engineering, E&TC Engineering,
+Mechanical Engineering and also offers Information Technology. PCCOE&R is
+affiliated to Savitribai Phule Pune University (SPPU), Pune and is approved by
+A.I.C.T.E., New Delhi, Govt. of Maharashtra, D.T.E, Mumbai. Recently the
+Institute has been accredited with A++ grade by NAAC in the very first cycle of
+accreditation. Right from its inception, PCCOER has adopted Outcome Based
+Education (OBE) and Student-centric approach. We work on a Four-Pillar
+Philosophy, the four pillars of our Institute being; Academic Excellence,
+Research & Innovation, Professional Competence and Social Commitment.
+Institute has experienced, dedicated and highly qualified faculty (29
+Doctorates and 44 pursuing PhD), state-of-art infrastructure and an
+environment conducive to learning, research and innovation, which has
+culminated into PCCOE&R being among top Five Institutions in SPPU results. In
+a very short span from its commencement, PCCOER has produced 9 University
+Rankers.
         </p>
-        {/* <h3 className="text-lg font-semibold text-blue-700 mb-2">Four-Pillar Philosophy:</h3> */}
-        <ul className="list-disc list-inside  mb-4">
-          <li>Academic Excellence</li>
-          <li>Research & Innovation</li>
-          <li>Professional Competence</li>
-          <li>Social Commitment</li>
-        </ul>
-        <p className="text-justify">
-          Institute has experienced, dedicated and highly qualified faculty (29
-          Doctorates and 44 pursuing PhD), state-of-the-art infrastructure and
-          an environment conducive to learning, research and innovation, which
-          has culminated into PCCOE&R being among top Five Institutions in SPPU
-          results. In a very short span from its commencement, PCCOER has
-          produced 9 University Rankers.
-        </p>
+        
 
         <h2 className="text-xl mb-2 mt-4 font-bold">
-          About Department of Mechanical Engineering
-        </h2>
+          About Department</h2>
         <p className="text-justify mb-4">
           Mechanical engineering is one of the broadest engineering disciplines.
           Mechanical engineers design, develop, build and test. They deal with
