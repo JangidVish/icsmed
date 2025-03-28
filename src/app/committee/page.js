@@ -55,53 +55,7 @@ const SteeringCommittee = () => {
         </li>
       </ul>
 
-      <h3 className="text-xl font-semibold">General Chair</h3>
-      <ul className="list-disc list-inside text-gray-800 mb-4">
-        <li>
-          <span className="font-semibold italic text-blue-800">
-            Dr. Gulab D. Siraskar
-          </span>
-          , Head of the Department, Mechanical Engineering
-        </li>
-      </ul>
-
-      <h3 className="text-xl font-semibold">Co-ordinators</h3>
-      <ul className="list-disc list-inside text-gray-800 mb-4">
-        <li>
-          <span className="font-semibold italic text-blue-800">
-            Dr. Ramesh K, Rathod
-          </span>
-          , Associate Professor, Mechanical Engineering
-        </li>
-        <li>
-          <span className="font-semibold italic text-blue-800">
-            Prof.Dr. Rupali Patil
-          </span>
-          , Assistant Professor, Mechanical Engineering
-        </li>
-      </ul>
-
-      <h3 className="text-xl font-semibold">Co-coordinators</h3>
-      <ul className="list-disc list-inside text-gray-800 mb-4">
-        <li>
-          <span className="font-semibold italic text-blue-800">
-            Dr. Sukhadip M. Chougule
-          </span>
-          , Assistant Professor, Mechanical Engineering
-        </li>
-        <li>
-          <span className="font-semibold italic text-blue-800">
-            Dr. Ganesh Mahadev Fodase
-          </span>
-          , Assistant Professor, Mechanical Engineering
-        </li>
-        <li>
-          <span className="font-semibold italic text-blue-800">
-            Dr. Deepak D. Biradar
-          </span>
-          , Assistant Professor, Mechanical Engineering
-        </li>
-      </ul>
+      
     </div>
   );
 };
