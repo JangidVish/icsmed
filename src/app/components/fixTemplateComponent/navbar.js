@@ -8,11 +8,11 @@ export default function Navbar() {
   const router = useRouter(); // Use router for navigation
 
   return (
-    <nav className="bg-gray-100 shadow-md text-base w-full flex flex-row items-center justify-center">
-      <div className="container mx-auto px-4 py-3 flex items-center justify-center w-full">
+    <nav className="bg-gray-100 shadow-md text-base w-full flex md:flex-row flex-col items-center justify-center">
+      <div className="container mx-auto px-4 py-3 flex flex-col items-center justify-center w-full">
         {/* Mobile Menu Button */}
         <button
-          className="block lg:hidden text-gray-700 focus:outline-none"
+          className="block lg:hidden text-gray-700 focus:outline-none "
           onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
         >
           ☰
@@ -65,7 +65,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden px-4 py-3 space-y-2 bg-gray-100">
+        <div className="lg:hidden px-4 py-3 space-y-2 bg-gray-100 flex flex-col">
           <NavItem href="/" label="Home" />
           <NavItem href="/Confrence/About" label="About Conference" />
           <NavItem href="/Confrence/Schedule" label="Program Schedule" />
@@ -109,6 +109,7 @@ function NavItem({ href, label, external = false }) {
       rel={external ? "noopener noreferrer" : ""}
     >
       {label}
+      <br />
     </a>
   );
 }
@@ -121,6 +122,7 @@ function Dropdown({ label, items }) {
         {items.map((item, index) => (
           <div className="">
             <NavItem key={index} href={item.href} label={item.label} />
+            <br />
           </div>
         ))}
       </div>

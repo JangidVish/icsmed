@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           </aside>
 
           {/* Dynamic Content */}
-          <section className="flex-grow flex p-6 w-1/2">{children}</section>
+          <section className="flex-grow flex p-6 md:w-1/2">{children}</section>
 
           <aside className="md:w-1/4 w-full flex flex-col p-4 shadow-lg">
             <RightConf />

@@ -12,7 +12,7 @@ const HeaderComponent = () => {
           <div className="text-center p-2 w-32">
             <a href="/">
               <img
-                src="/Images/icsmed_logo.png"
+                src="/icsmed_logo.png"
                 alt="Journal Press India Logo"
                 className="img-fluid"
               />
@@ -48,7 +48,7 @@ const HeaderComponent = () => {
         <div className="col-12 col-sm-6 col-md-3 m-auto order-3 order-sm-3">
           <div className="text-center p-2 w-32">
             <img
-              src="/Images/pccoer_logo.webp"
+              src="/pccoer_logo.webp"
               alt="Conference Logo"
               className="img-fluid w-32"
             />

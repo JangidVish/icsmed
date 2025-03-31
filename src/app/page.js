@@ -2,12 +2,12 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="text-black flex flex-col justify-center items-center max-w-3xl">
-      <div className="">
-        <img src="/Images/flier.jpg" alt="" srcset="" />
+    <div className="text-black flex flex-col justify-center items-center w-full md:max-w-3xl">
+      <div className="w-full">
+        <img src="/flier.jpg" alt="" srcset="" />
       </div>
       <div>
-        <h1 className="font-bold text-md pt-3">About the Conference</h1>
+        <h1 className="font-bold text-md pt-3 ">About the Conference</h1>
         <p className="pt-0 p-3">
           The 1st International Conference on “Sustainable Mechanical
           Engineering and Design” [ICSMED 2025] focuses on innovative approaches
