@@ -33,13 +33,17 @@ const LeftColumn = () => {
         <ul className="list-disc list-inside  text-sm">
           <li>INTERNATIONAL KEYNOTE ADDRESS.</li>
           <li> HYBRID MODE OF PRESENTATIONS.</li>
-          <li>Publication opportunities in conference proceedings.</li>
+          <li className="uppercase">
+            Publication opportunities in conference proceedings.
+          </li>
           <li>
             SELECTED PAPERS WILL BE PUBLISHED IN SCOPUS INDEXED PROCEEDINGS.
           </li>
           <li> E-CERTIFICATE OF PARTICIPATION.</li>
           <li>BEST PAPER AWARD.</li>
-          <li>E-PROCEEDINGS WITH ISBN/ISSN/DOI.</li>
+          <li className="uppercase">
+            Selected papers will be published in Scopus Indexed Journal.
+          </li>
         </ul>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const SteeringCommittee = () => {
   return (
-    <div className="p-6 max-w-3xl mx-auto ">
+    <div className="p-6 max-w-4xl mx-auto ">
       <h2 className="text-2xl font-medium mb-4">Steering Committee</h2>
 
       <h3 className="text-xl font-semibold mt-4">Chief Patrons</h3>

@@ -3,8 +3,8 @@ import React from "react";
 function AboutOrganizer() {
   return (
     <>
-      <div className=" max-w-3xl ">
-        <h2 className="text-xl mb-2 font-bold">About the Organiser</h2>
+      <div className="p-6 max-w-4xl mx-auto ">
+        <h2 className="text-xl mb-2">About the Organiser</h2>
         {/* <img
         src="/path-to-your-image.png"
         alt="Institute"
@@ -42,7 +42,7 @@ function AboutOrganizer() {
           produced 9 University Rankers.
         </p>
 
-        <h2 className="text-xl mb-2 mt-4 font-bold">
+        <h2 className="text-xl mb-2 mt-4">
           About Department of Mechanical Engineering
         </h2>
         <p className="text-justify mb-4">

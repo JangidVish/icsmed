@@ -1,5 +1,6 @@
 import React from "react";
 
+import logo from "./../Assets/rup1.png";
 const Page = () => {
   return (
     <div className="text-black flex flex-col justify-center items-center w-full md:max-w-3xl">
