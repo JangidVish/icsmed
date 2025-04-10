@@ -15,7 +15,7 @@ const CallForPapers = () => {
             guidelines.
           </li>
           <li>Use the IEEE Standard Template.</li>
-          <li>Submit papers via Microsoft CMT by 15th December 2024.</li>
+          <li>Submit papers via Microsoft CMT by 25th April 2025.</li>
           <li>
             All submissions are handled electronically through the Microsoft CMT
             platform.

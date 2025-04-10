@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const router = useRouter(); // Use router for navigation
 
   return (
@@ -45,6 +46,7 @@ export default function Navbar() {
             label="Submission"
             items={[
               { href: "/guidelines", label: "Guidelines" },
+              { href: "/IEEE-format.docx", label: "IEEE Template" },
               {
                 href: "https://docs.google.com/forms/d/e/1FAIpQLSfqjEa5wRic4sDCP1Zu2IJAGjlNDv5r_CkjjHxI57COhhG6-A/viewform",
                 label: "Paper Submission Form",
@@ -54,11 +56,6 @@ export default function Navbar() {
           <Dropdown
             label="Contact Us"
             items={[{ href: "/query", label: "Post your query" }]}
-          />
-          <NavItem
-            href="https://www.journalpressindia.com/website/pccoer-icetc2025/special-issue"
-            label="Edited Book"
-            external
           />
         </div>
       </div>
@@ -78,12 +75,8 @@ export default function Navbar() {
           <NavItem href="/review" label="Advisory Committee" />
           <NavItem href="/papers" label="Call for Papers" />
           <NavItem href="/guidelines" label="Submission Guidelines" />
+          <NavItem href="/IEEE-format.docx" label="IEEE Format" />
           <NavItem href="/query" label="Post Your Query" />
-          <NavItem
-            href="https://www.journalpressindia.com/website/pccoer-icetc2025/special-issue"
-            label="Edited Book"
-            external
-          />
         </div>
       )}
     </nav>

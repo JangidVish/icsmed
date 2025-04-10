@@ -36,9 +36,6 @@ const LeftColumn = () => {
           <li className="uppercase">
             Publication opportunities in conference proceedings.
           </li>
-          <li>
-            SELECTED PAPERS WILL BE PUBLISHED IN SCOPUS INDEXED PROCEEDINGS.
-          </li>
           <li> E-CERTIFICATE OF PARTICIPATION.</li>
           <li>BEST PAPER AWARD.</li>
           <li className="uppercase">
