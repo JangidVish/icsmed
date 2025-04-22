@@ -13,14 +13,20 @@ export default function ConferenceDates() {
             </tr>
             <tr className="border-b">
               <td className="">Start Date</td>
-              <td className="">
+              <td>
                 27<sup>th</sup> Mar 2025
               </td>
             </tr>
             <tr className="border-b">
               <td className="">Last Date</td>
               <td className="">
-                25<sup>th</sup> April 2025
+                <p className="line-through">
+                  25<sup>th</sup> April 2025
+                </p>
+                <p>
+                  {" "}
+                  15<sup>th</sup> May 2025
+                </p>
               </td>
             </tr>
             <tr className="border-b">
