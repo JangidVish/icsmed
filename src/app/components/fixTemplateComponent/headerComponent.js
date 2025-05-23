@@ -62,10 +62,10 @@ const HeaderComponent = () => {
           {" "}
           <div className="flex gap-10">
             <h4 className="text-sm">
-              Submission Date extended to 15th May 2025
+              Conference Dates on 30th to 31st May 2025
             </h4>
             <h4 className="text-sm px-10">
-              Submission Date extended to 15th May 2025
+              Conference Dates on 30th to 31st May 2025
             </h4>
           </div>
         </marquee>

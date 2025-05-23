@@ -37,7 +37,6 @@ export default function Navbar() {
             items={[
               { href: "/organisers", label: "About the Organiser" },
               { href: "/committee", label: "Steering Committee" },
-              { href: "/partners", label: "Partner" },
               { href: "/review", label: "Advisory Committee" },
             ]}
           />
@@ -71,7 +70,6 @@ export default function Navbar() {
           <NavItem href="/Confrence/Venue" label="Venue" />
           <NavItem href="/organisers" label="About the Organiser" />
           <NavItem href="/committee" label="Steering Committee" />
-          <NavItem href="/partners" label="Partner" />
           <NavItem href="/review" label="Advisory Committee" />
           <NavItem href="/papers" label="Call for Papers" />
           <NavItem href="/guidelines" label="Submission Guidelines" />
