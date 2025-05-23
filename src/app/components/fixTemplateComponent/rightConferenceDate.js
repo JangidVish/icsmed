@@ -72,7 +72,7 @@ export default function ConferenceDates() {
             <tr className="bg-blue-800 text-white font-bold">
               <td className="mt-4">Conference Dates</td>
               <td>
-                25<sup>th</sup> - 26<sup>st</sup> July 2025
+                25<sup>th</sup> - 26<sup>th</sup> July 2025
               </td>
             </tr>
           </tbody>
