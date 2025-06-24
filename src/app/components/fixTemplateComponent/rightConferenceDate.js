@@ -14,25 +14,25 @@ export default function ConferenceDates() {
             <tr className="border-b">
               <td className="">Start Date</td>
               <td>
-                27<sup>th</sup> Mar 2025
+                15<sup>th</sup> May 2025
               </td>
             </tr>
             <tr className="border-b">
               <td className="">Last Date</td>
               <td className="">
                 <p className="line-through">
-                  25<sup>th</sup> April 2025
+                  15<sup>th</sup> May 2025
                 </p>
                 <p>
                   {" "}
-                  15<sup>th</sup> May 2025
+                  07<sup>th</sup> July 2025
                 </p>
               </td>
             </tr>
             <tr className="border-b">
               <td className="">Notification of Acceptance</td>
               <td className="">
-                10<sup>th</sup> May 2025
+                10<sup>th</sup> July 2025
               </td>
             </tr>
             <tr className="bg-[#006699]  text-white font-bold">
@@ -41,14 +41,14 @@ export default function ConferenceDates() {
             <tr className="border-b">
               <td className="">Date</td>
               <td className="">
-                10<sup>th</sup> - 20<sup>th</sup> May 2025
+                10<sup>th</sup> - 07<sup>th</sup> July 2025
               </td>
             </tr>
 
             <tr className="border-b">
               <td className="">Submission of Camera Ready Manuscript:</td>
               <td className="">
-                10<sup>th</sup> - 20<sup>th</sup> May 2024
+                15<sup>th</sup> July 2025
               </td>
             </tr>
             {/* <tr className="border-b">
