@@ -41,7 +41,7 @@ export default function ConferenceDates() {
             <tr className="border-b">
               <td className="">Date</td>
               <td className="">
-                10<sup>th</sup> - 07<sup>th</sup> July 2025
+                10<sup>th</sup> May - 07<sup>th</sup> July 2025
               </td>
             </tr>
 
